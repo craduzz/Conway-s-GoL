@@ -303,7 +303,6 @@ def addShape(i, j, grid):
 
 def searchConfig(grid, i, j):
     """Searches if the cell found matches any of the configurations"""
-    # TODO: fix configuration 19 not being found
 
     # Saves the original value of j
     jBase = j
@@ -384,7 +383,6 @@ def getConfigName(configNum):
 
 def writeLog(listOfFoundConfig,frameNum):
     """Receives the list of the found configurations and the current generation to write them on the output log"""
-    # TODO: make that the configurations with more than 1 form are shown as the same
     listHasValues = True
 
     # Open the output file and start writing the results
